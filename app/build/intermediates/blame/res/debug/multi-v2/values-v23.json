@@ -1,0 +1,58 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Ravi\\Downloads\\SmartFoods\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ravi\\.gradle\\caches\\transforms-2\\files-2.1\\69fbcbaba119d92781dd5adcf98e2e28\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2618,2842,2957,3064,3177",
+                        "endLines": "2,3,4,5,19,33,34,35,36,40,41,42,43,47",
+                        "endColumns": "134,134,74,86,12,12,118,126,104,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2613,2837,2952,3059,3172,3402"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ravi\\.gradle\\caches\\transforms-2\\files-2.1\\93c025b4d41457dba3e5f3715fd8249a\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,6,9,12",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,330,502,662",
+                        "endLines": "5,8,11,14",
+                        "endColumns": "10,10,10,10",
+                        "endOffsets": "325,497,657,826"
+                    },
+                    "to": {
+                        "startLines": "51,55,58,61",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3557,3832,4004,4164",
+                        "endLines": "54,57,60,63",
+                        "endColumns": "10,10,10,10",
+                        "endOffsets": "3827,3999,4159,4328"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ravi\\.gradle\\caches\\transforms-2\\files-2.1\\0066d7e0d8614d853831e703a3f22fb8\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "3407",
+                        "endLines": "50",
+                        "endColumns": "12",
+                        "endOffsets": "3552"
+                    }
+                }
+            ]
+        }
+    ]
+}

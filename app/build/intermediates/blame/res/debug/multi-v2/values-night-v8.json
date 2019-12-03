@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Ravi\\Downloads\\SmartFoods\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ravi\\.gradle\\caches\\transforms-2\\files-2.1\\69fbcbaba119d92781dd5adcf98e2e28\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "120,204,288,384,486,588,682"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ravi\\.gradle\\caches\\transforms-2\\files-2.1\\93c025b4d41457dba3e5f3715fd8249a\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,143,267,369,471,585,705,825,937",
+                        "endColumns": "87,123,101,101,113,119,119,111,137",
+                        "endOffsets": "138,262,364,466,580,700,820,932,1070"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "687,775,899,1001,1103,1217,1337,1457,1569",
+                        "endColumns": "87,123,101,101,113,119,119,111,137",
+                        "endOffsets": "770,894,996,1098,1212,1332,1452,1564,1702"
+                    }
+                }
+            ]
+        }
+    ]
+}

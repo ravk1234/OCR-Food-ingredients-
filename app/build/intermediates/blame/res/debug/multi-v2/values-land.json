@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Ravi\\Downloads\\SmartFoods\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ravi\\.gradle\\caches\\transforms-2\\files-2.1\\93c025b4d41457dba3e5f3715fd8249a\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,128,198,270,340",
+                        "endLines": "2,3,4,5,9",
+                        "endColumns": "72,69,71,69,10",
+                        "endOffsets": "123,193,265,335,507"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "264,337,407,479,549",
+                        "endLines": "5,6,7,8,12",
+                        "endColumns": "72,69,71,69,10",
+                        "endOffsets": "332,402,474,544,716"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ravi\\.gradle\\caches\\transforms-2\\files-2.1\\69fbcbaba119d92781dd5adcf98e2e28\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                }
+            ]
+        }
+    ]
+}

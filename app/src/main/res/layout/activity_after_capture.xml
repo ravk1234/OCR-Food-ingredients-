@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".AfterCaptureActivity">
+
+
+    <RelativeLayout
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="368dp"
+        android:layout_height="530dp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="29dp">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="133dp"
+            android:layout_height="90dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            app:srcCompat="@drawable/check" />
+
+        <Button
+            android:id="@+id/AnotherPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_btn"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Take Another Photo" />
+
+        <TextView
+            android:id="@+id/TitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:text="All ingredients are OK!"
+            android:textColor="#4EB98C"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:id="@+id/BadIngredientsBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/TextToSpeech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/AnotherPicture"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="9dp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_btn"
+            android:text="Text To Speech" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

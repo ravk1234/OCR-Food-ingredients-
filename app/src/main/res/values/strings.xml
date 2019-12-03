@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SmartFoods</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">ParsaFood</string>
+    <string name="parsafood_logo_descr">ParsaFood Logo</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="scan_ingredients">Scan Ingredients</string>
+    <string name="set_allergens">Set Preferences</string>
+    <string name="enter_prefs">Tell me about yourself.</string>
+    <string name="age_label">Age</string>
+    <string name="weight_label">Weight (kg)</string>
+    <string name="height_label">Height (cm)</string>
+    <string name="basic_info_label">Basic Information</string>
+    <string name="diet_label">Dietary Restrictions</string>
+    <string name="egg_choice">Egg Allergy</string>
+    <string name="milk_choice">Milk Allergy</string>
+    <string name="peanut_choice">Peanut Allergy</string>
+    <string name="seafood_choice">Seafood Allergy</string>
+    <string name="wheat_choice">Wheat Allergy</string>
+    <string name="gluten_choice">Gluten Allergy</string>
+    <string name="soy_choice">Soy Allergy</string>
+    <string name="lactose_choice">Lactose Intolerant</string>
+    <string name="vegetarian_choice">Vegetarian Diet</string>
+    <string name="vegan_choice">Vegan Diet</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+    <string name="scan_preferences">Scan preferences</string>
+</resources>

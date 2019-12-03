@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="false"
+    android:layout_alignParentRight="false"
+    android:background="@drawable/bg"
+    tools:context=".PreferencesActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="@string/basic_info_label"
+        android:textColor="@color/parsayellow"
+        android:textSize="30sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="60dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/age_label"
+                android:textColor="@color/parsapurple"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/age_input"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weight_label"
+                android:textColor="@color/parsapurple"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/weight_input"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/height_label"
+                android:textColor="@color/parsapurple"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/height_input"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tableLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="@string/diet_label"
+        android:textColor="@color/parsayellow"
+        android:textSize="30sp" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="false"
+        android:layout_centerInParent="false"
+        android:paddingBottom="80dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <CheckBox
+                android:id="@+id/Egg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center"
+                android:text="@string/egg_choice"
+                android:textColor="@color/parsapurple"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/Gluten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="sans-serif"
+                android:text="@string/gluten_choice"
+                android:textColor="@color/parsapurple"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <CheckBox
+                android:id="@+id/Soy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center"
+                android:text="@string/soy_choice"
+                android:textColor="@color/parsapurple"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/Wheat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center"
+                android:text="@string/wheat_choice"
+                android:textColor="@color/parsapurple"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <CheckBox
+                android:id="@+id/Peanut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="sans-serif"
+                android:text="@string/peanut_choice"
+                android:textColor="@color/parsapurple"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/Lactose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="sans-serif"
+                android:text="@string/lactose_choice"
+                android:textColor="@color/parsapurple"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <CheckBox
+                android:id="@+id/Milk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center"
+                android:text="@string/milk_choice"
+                android:textColor="@color/parsapurple"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/Vegetarian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="sans-serif"
+                android:text="@string/vegetarian_choice"
+                android:textColor="@color/parsapurple"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <CheckBox
+                android:id="@+id/Seafood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center"
+                android:text="@string/seafood_choice"
+                android:textColor="@color/parsapurple"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/Vegan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="sans-serif"
+                android:text="@string/vegan_choice"
+                android:textColor="@color/parsapurple"
+                android:textSize="20sp" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/Apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tableLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_btn"
+        android:padding="10dp"
+        android:text="Apply Preferences"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</RelativeLayout>
