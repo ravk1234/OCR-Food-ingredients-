@@ -20,7 +20,7 @@ This Page consist of list of allergy and things to be avoided for the users.!!<b
 
 ![GitHub Logo](/screen2.jpg)
 <br>
-This page consists of camera button for OCR Reading.
+This page consists of camera button for OCR Reading.We have added text to speech conversion for convinence!!
 
 
 
